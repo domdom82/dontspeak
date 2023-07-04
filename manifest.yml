@@ -1,0 +1,8 @@
+---
+applications:
+  - name: dontspeak
+    memory: 128M
+    instances: 10
+    health-check-type: process
+    path: .
+    command: ./dontspeak 9
